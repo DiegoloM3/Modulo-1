@@ -1,0 +1,30 @@
+
+.lista-enlaces li {
+    display:inline;
+    margin: 0 0.5em;
+}
+.lista-enlaces {
+    float:right;
+    margin-right: 50px;
+}
+
+a {
+    text-decoration:none;
+}
+
+a:hover {
+    color: purple;
+}
+
+.principal {
+    text-align:center;
+}
+
+.cabecera {
+    display:block;
+    height: 50px;
+}
+
+.titulo {
+    margin-top:20vh;
+}
