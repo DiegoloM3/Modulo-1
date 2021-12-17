@@ -27,4 +27,5 @@ a:hover {
 
 .titulo {
     margin-top:20vh;
+    text-shadow: 5px 5px 5px gray;
 }
