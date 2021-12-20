@@ -1,0 +1,75 @@
+/* Selector por nombre elemento */
+body {
+    color: yellow;
+}
+/* Selector por nombre de atributo id */
+#titulo {
+    font-size: 5em;
+}
+
+/* Selector por nombre de atributo class */
+.titulo {
+   color: blue; 
+}
+
+/* Selectores por atributo */
+[alt] {
+    width: 200px;
+}
+
+/* Atributo con un valor especifico */
+/* [title="parrafo"] {
+    font-size: 5em;
+} */
+
+[title*="afo"] {
+    font-size: 10em;
+}
+
+
+/* Pseudo clases */
+
+[title*="afo"]:hover {
+    color:red;
+}
+
+
+[type="radio"]:checked {
+    width: 500px;
+}
+
+/* Pseudo Elementos - Selectores que nos permiten referirnos a partes de elementos */
+
+p::after {
+    content:" hola";
+    color:blue;
+}
+
+p::before {
+    content: " adios";
+    color: rgb(230, 230, 150);
+}
+
+
+/* Combinacion de selectores */
+
+/* Listas de selectores */
+h1, h3, p::before {
+    color: green;
+}
+
+/* Selectores Descendientes */
+div .parrafo {
+    font-size: 0.5em;
+}
+
+/* Selector desciendente directo */
+
+main > h3 {
+    text-decoration: underline;
+}
+
+/* Selectores adyacentes */
+.parr + .titulo {
+    color: yellowgreen !important;
+}
